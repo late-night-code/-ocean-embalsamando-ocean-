@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img height=50 alt="Vue logo" src="./assets/logo.png">
+    <Select/>
+    <Reservoir/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Reservoir from './components/Reservoir.vue'
+import Select from './components/Select.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Reservoir,
+    Select
   }
 }
 </script>
