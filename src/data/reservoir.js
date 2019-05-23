@@ -6,6 +6,7 @@ const grabReservoirData = function(url) {
     rp(url)
         .then(function(html){
             //success!
+            console.log("Hi!")
             // const links = $(' td >  a', html)
             // console.log("Number of links: " + links.length);
             // const divs = $(' td >  div', html)
