@@ -1,5 +1,5 @@
 <template>
-  <div class="reservoir" style="height: 800px">
+  <div class="reservoir">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -20,8 +20,8 @@
         <use xlink:href="#gentle-wave" x="50" y="6" fill="#2d55aa"/>
       </g>
     </svg>
-    <div class="title">
-      <h1 contenteditable="true">Embalsamando "The deep blue"</h1>
+    <div class="title" style="height: 400px">
+      <h1>Embalsamando "The deep blue"</h1>
     </div>
 
     <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet">
@@ -39,10 +39,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-::selection {
-	background-color: salmon;
-	color: white;
-}
 
 .parallax > use {
 	animation: move-forever 12s linear infinite;
@@ -72,6 +68,12 @@ export default {
 	}
 }
 
+.reservoir {
+  position: absolute;
+  bottom: 0;
+  width: 100%
+}
+
 .reservoir svg {
 	display: block;
 	width: 100%;
@@ -85,7 +87,6 @@ export default {
 	text-align: center;
 	background-color: #2d55aa;
 	text-align: center;
-	min-height: 75vh;
 	margin: -.1em 0 0 0;
 	padding: 1em;
 	color: #eee;
@@ -98,8 +99,6 @@ export default {
 	margin-top: -1.3em;
 	font-weight: 100;
 	font-size: 5em;
-	user-select: none;
-	cursor: default;
 }
 
 /*prevent many large-by-comparison ripples by shrinking the height*/
@@ -108,16 +107,9 @@ export default {
 		font-size: 12vmax;
 	}
 
-	.editorial {
+	.reservoir {
 		height: 17vw;
 	}
 }
 
-h1 {
-	outline: none;
-}
-
-body {
-	background-color: #234;
-}
 </style>

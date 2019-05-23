@@ -1,20 +1,20 @@
 <template>
   <div id="app">
     <img height=50 alt="Vue logo" src="./assets/logo.png">
-    <Select/>
+    <Geolocation/>
     <Reservoir/>
   </div>
 </template>
 
 <script>
 import Reservoir from './components/Reservoir.vue'
-import Select from './components/Select.vue'
+import Geolocation from './components/Geolocation.vue'
 
 export default {
   name: 'app',
   components: {
     Reservoir,
-    Select
+    Geolocation
   }
 }
 </script>

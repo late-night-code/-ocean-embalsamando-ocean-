@@ -14,7 +14,7 @@
 import axios from 'axios'
 
 export default {
-  name: 'Select',
+  name: 'Geolocation',
   data () {
     return {
 			info: null,
