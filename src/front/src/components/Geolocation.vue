@@ -45,7 +45,7 @@ export default {
             this.error = {
               code: error.code,
               msg: error.message
-            }
+						}
             console.error(error)
           })
       } else {

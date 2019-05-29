@@ -20,8 +20,8 @@
         <use xlink:href="#gentle-wave" x="50" y="6" fill="#2d55aa"/>
       </g>
     </svg>
-    <div class="title" style="height: 400px">
-      <h1>Embalsamando "The deep blue"</h1>
+    <div class="title" :style="{height: height + 'px'}">
+      <h1>Embalsamando </h1>
     </div>
 
     <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet">
@@ -32,7 +32,10 @@
 export default {
   name: 'Reservoir',
   props: {
-    msg: String
+    height: {
+      type: Number,
+      default: 100
+    }
   }
 }
 </script>

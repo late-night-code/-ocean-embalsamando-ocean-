@@ -1,18 +1,20 @@
 <template>
   <div id="app">
-    <img height=50 alt="Vue logo" src="./assets/logo.png">
+    <WindySunny/>
     <Geolocation/>
-    <Reservoir/>
+    <Reservoir :height="300"/>
   </div>
 </template>
 
 <script>
 import Reservoir from './components/Reservoir.vue'
 import Geolocation from './components/Geolocation.vue'
+import WindySunny from './components/wheater/WindySunny.vue'
 
 export default {
   name: 'app',
   components: {
+    WindySunny,
     Reservoir,
     Geolocation
   }
@@ -25,7 +27,11 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  background: rgb(231, 242, 252);
+  margin: 0;
+}
+
+body {
+  margin: 0
 }
 </style>
