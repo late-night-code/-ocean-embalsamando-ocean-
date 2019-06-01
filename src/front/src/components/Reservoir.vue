@@ -1,41 +1,52 @@
 <template>
-  <div class="reservoir">
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
-      viewBox="0 24 150 28"
-      preserveAspectRatio="none">
-      <defs>
-        <path id="gentle-wave"
-          d="M-160 44c30 0
-              58-18 88-18s
-              58 18 88 18
-              58-18 88-18
-              58 18 88 18
-              v44h-352z" />
-      </defs>
-      <g class="parallax">
-        <use xlink:href="#gentle-wave" x="50" y="0" fill="#4579e2"/>
-        <use xlink:href="#gentle-wave" x="50" y="3" fill="#3461c1"/>
-        <use xlink:href="#gentle-wave" x="50" y="6" fill="#2d55aa"/>
-      </g>
-    </svg>
-    <div class="title" :style="{height: height + 'px'}">
-      <h1>Embalsamando </h1>
+  <div class="reservoir" :style="{height: data + '%'}">
+    <div class="svg-container">
+      <div class="text-transparent">Embalsamando</div>
+      <div class="svg-layer"></div>
     </div>
+    <!-- <div  class="water"/> -->
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet"> -->
   </div>
 </template>
 
 <script>
 export default {
   name: 'Reservoir',
-  props: {
-    height: {
-      type: Number,
-      default: 100
+  data () {
+    return {
+      height: {
+        type: Number,
+        default: 0
+      },
+      iterator: {
+        type: Number,
+        default: 0
+      },
     }
+  },
+  props: {
+    data: {
+      type: String,
+    }
+  },
+  mounted () {
+    this.iterator = 0
+    this.height = 0
+     console.log('Current height: ' + this.data)
+
+    // if(this.data!=='null'){
+    //   this.interval = setInterval(() => {
+    //     if(this.iterator < this.data.length){
+    //       this.height = this.data[this.iterator]
+    //       this.iterator += 1
+    //       // console.log('Current height: ' + this.height)
+    //     } else {
+    //       // console.log('Interval end')
+    //       clearInterval(this.interval)
+    //     }
+    //   }, 1000)
+    // }
   }
 }
 </script>
@@ -44,6 +55,7 @@ export default {
 <style scoped>
 
 .parallax > use {
+  bottom: 0;
 	animation: move-forever 12s linear infinite;
 }
 
@@ -72,36 +84,45 @@ export default {
 }
 
 .reservoir {
-  position: absolute;
   bottom: 0;
-  width: 100%
+  width: 100%;
+  position: fixed;
+  background-color: #2d55aa;
+  transition: height ease 1s;
 }
 
-.reservoir svg {
-	display: block;
-	width: 100%;
-	height: 10em;
-	max-height: 100vh;
-	margin: 0;
+.text-transparent {
+  background-image: url(http://embalsamando.com/back/assets/inverted-wave.svg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  font-size: 100px;
+  font-family: 'Courier New', Courier, monospace;
+  position: relative;
+  z-index: 2;
+  height: 100%;
 }
-
-.title {
-	font-family: 'Lato',sans-serif;
-	text-align: center;
-	background-color: #2d55aa;
-	text-align: center;
-	margin: -.1em 0 0 0;
-	padding: 1em;
-	color: #eee;
-	font-size: 2em;
-	font-weight: 300;
-	font-size: 1em;
+.svg-layer {
+  background-image: url(http://embalsamando.com/back/assets/wave.svg);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  z-index: 1;
 }
-
-.title h1 {
-	margin-top: -1.3em;
-	font-weight: 100;
-	font-size: 5em;
+.svg-container {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  height: 200px;
+  top: -200px;
 }
 
 /*prevent many large-by-comparison ripples by shrinking the height*/
