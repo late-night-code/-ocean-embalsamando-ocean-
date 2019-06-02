@@ -1,11 +1,9 @@
 <template>
-  <div class="reservoir" :style="{height: data + '%'}">
+  <div class="reservoir" :style="{height: waterLevel + '%'}">
     <div class="svg-container">
-      <div class="text-transparent">Embalsamando</div>
+      <div class="text-transparent">{{reservoirName + ': ' + waterLevel + '%'}}</div>
       <div class="svg-layer"></div>
     </div>
-    <!-- <div  class="water"/> -->
-
     <!-- <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet"> -->
   </div>
 </template>
@@ -15,25 +13,20 @@ export default {
   name: 'Reservoir',
   data () {
     return {
-      height: {
-        type: Number,
-        default: 0
-      },
-      iterator: {
-        type: Number,
-        default: 0
-      },
+      height: 0,
+      iterator:0
     }
   },
   props: {
-    data: {
+    reservoirName: {
+      type: String,
+    },
+    waterLevel: {
       type: String,
     }
   },
   mounted () {
-    this.iterator = 0
-    this.height = 0
-     console.log('Current height: ' + this.data)
+    // console.log('Current height: ' + this.data)
 
     // if(this.data!=='null'){
     //   this.interval = setInterval(() => {

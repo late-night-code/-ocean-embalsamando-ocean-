@@ -1,16 +1,8 @@
 <template>
   <div>
-  <!-- <div style="height: 200px"> -->
-		<!-- <h1>
-			Latitude is: {{ coords.lat}}<br>
-			Longitude is: {{ coords.long}}
-		</h1>
-		<p v-if="isGeoAvailable === false">
-			Geolocation not available
-		</p> -->
     <WindySunny/>
-    <Reservoir :data="closest_reservoir.data.water_percentage"/>
-
+		<p v-if="isGeoAvailable === false"> Geolocation not available </p>
+    <Reservoir :reservoirName="closest_reservoir.name" :waterLevel="closest_reservoir.data.water_percentage"/>
   </div>
 </template>
 
@@ -28,6 +20,7 @@ export default {
 	},
   data () {
     return {
+			wheaterAPIkey: 'e6e43aa3944cdbbdda02a91890461f1c',
 			info: null,
 			isGeoAvailable: true,
       error: null,
@@ -35,10 +28,13 @@ export default {
         lat: '',
         long: ''
 			},
+			weather_forecast: {
+
+			},
 			close_reservoirs: [],
 			closest_reservoir: {
 				id: null,
-				name: null,
+				name: 'Embalsamando',
 				latitude: null,
 
 				longitude: null,
@@ -49,7 +45,7 @@ export default {
 						date: null,
 						water: null,
 						water_unity: null,
-						water_percentage: null,
+						water_percentage: '0',
 						coordinates: {
 								latitude: null,
 								longitude: null
@@ -69,7 +65,7 @@ export default {
             .getCurrentPosition((position) => {
               this.coords.lat = position.coords.latitude
               this.coords.long = position.coords.longitude
-              console.log("Coords set: " + this.coords)
+              // console.log("Coords set: " + this.coords)
 				}, (error) => {
             this.error = {
               code: error.code,
@@ -83,9 +79,9 @@ export default {
 		}
 	},
 	watch: {
-		// Once the location is loaded, request closest reservoir water level
 		coords:{
 			handler: function () {
+				// Once the location is loaded, request closest reservoir water level
         axios
         .get('http://embalsamando.com/back/api.php', {
           params: {
@@ -99,15 +95,16 @@ export default {
 					// Closest reservoir with water level different from 0
 					for (let i = 0; i < this.close_reservoirs.length; i++) {
 						const creservoir = this.close_reservoirs[i];
-
 						if (creservoir.data.water_percentage !== "0.00") {
 							this.closest_reservoir = creservoir;
-
-							console.log("Expected water" + creservoir.data.water_percentage);
+							// console.log("Water: " + creservoir.data.water_percentage);
 							break;
 						}
 					}
 				})
+				// And get weather forecast
+				axios
+				// .get('http://api.openweathermap.org/data/2.5/weather?lat={40.4662128}&lon={-3.7904418}&appid={e6e43aa3944cdbbdda02a91890461f1c}')
 			},
 			deep: true
 		}
