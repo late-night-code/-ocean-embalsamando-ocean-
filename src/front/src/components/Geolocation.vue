@@ -83,7 +83,7 @@ export default {
 			handler: function () {
 				// Once the location is loaded, request closest reservoir water level
         axios
-        .get('http://embalsamando.com/back/api.php', {
+        .get('https://embalsamando.com/back/api.php', {
           params: {
             action: 'closest',
             latitude: this.coords.lat,
