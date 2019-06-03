@@ -2,7 +2,7 @@
   <div id="app">
     <WindySunny/>
     <Geolocation/>
-    <Reservoir :height="300"/>
+    <Reservoir :data="[200, 700, 300]"/>
   </div>
 </template>
 
@@ -27,11 +27,11 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  background: rgb(231, 242, 252);
   margin: 0;
 }
 
 body {
-  margin: 0
+  margin: 0;
+  background: rgb(231, 242, 252);
 }
 </style>

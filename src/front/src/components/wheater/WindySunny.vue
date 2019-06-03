@@ -34,70 +34,70 @@ export default {
 <style scoped>
 @keyframes dash {
   to {
-    stroke-dashoffset: 0;
+    stroke-dashoffset: -100%;
   }
 }
 
 .stroke1 {
   stroke-dasharray: 100%;
   stroke-dashoffset: 100%;
-  animation: dash 2s linear alternate infinite;
+  animation: dash 2s linear infinite;
 }
 
 .stroke2 {
-  stroke-dasharray: 40;
-  stroke-dashoffset: 40;
-  animation-delay: 0.01s;
-  animation: dash 2s linear alternate infinite;
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation-delay: 0.1s;
+  animation: dash 2s linear infinite;
 }
 
 .stroke3 {
-  stroke-dasharray: 30;
-  stroke-dashoffset: 30;
-  animation-delay: 0.02s;
-  animation: dash 2s linear alternate infinite;
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation-delay: 0.2s;
+  animation: dash 2s linear infinite;
 }
 
 .stroke4 {
-  stroke-dasharray: 60;
-  stroke-dashoffset: 60;
-  animation-delay: 0.03s;
-  animation: dash 2s linear alternate infinite;
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation-delay: 0.3s;
+  animation: dash 2s linear infinite;
 }
 
 .stroke5 {
-  stroke-dasharray: 60;
-  stroke-dashoffset: 60;
-  animation-delay: 0.04s;
-  animation: dash 2s linear alternate infinite;
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation-delay: 0.4s;
+  animation: dash 2s linear infinite;
 }
 
 .stroke6 {
-  stroke-dasharray: 60;
-  stroke-dashoffset: 60;
-  animation-delay: 0.04s;
-  animation: dash 2s linear alternate infinite;
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation-delay: 0.4s;
+  animation: dash 2s linear infinite;
 }
 
 .stroke7 {
-  stroke-dasharray: 40;
-  stroke-dashoffset: 40;
-  animation-delay: 0.05s;
-  animation: dash 2s linear alternate infinite;
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation-delay: 0.5s;
+  animation: dash 2s linear infinite;
 }
 
 .stroke8 {
-  stroke-dasharray: 40;
-  stroke-dashoffset: 40;
-  animation-delay: 0.06s;
-  animation: dash 2s linear alternate infinite;
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation-delay: 0.6s;
+  animation: dash 2s linear infinite;
 }
 
 .stroke9 {
-  stroke-dasharray: 40;
-  stroke-dashoffset: 40;
-  animation-delay: 0.07s;
-  animation: dash 2s linear alternate infinite;
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation-delay: 0.7s;
+  animation: dash 2s linear infinite;
 }
 
 
