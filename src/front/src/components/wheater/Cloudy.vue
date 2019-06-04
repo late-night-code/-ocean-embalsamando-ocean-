@@ -1,6 +1,6 @@
 <template>
-    <div style="width: 200px; height: 200px">
-        <svg version="1.1" id="mostlyCloudyIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="70px" height="70px" viewBox="0 0 70 70" enable-background="new 0 0 70 70" xml:space="preserve">
+    <div>
+        <svg style="width: 100%; height: 500px" version="1.1" id="mostlyCloudyIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="70px" height="70px" viewBox="0 0 70 70" enable-background="new 0 0 70 70" xml:space="preserve">
             <g id="sunIcon">
                 <g id="outerRepeat" data-svg-origin="27.69999885559082 33.799997329711914" transform="matrix(0.82704,0,0,0.82704,4.790991802062976,5.8460475381469585)">
                     <circle id="outer" fill="#FFE499" cx="27.7" cy="33.8" r="17.4" data-svg-origin="27.69999885559082 33.799997329711914" transform="matrix(1,0,0,1,0,0)"></circle>

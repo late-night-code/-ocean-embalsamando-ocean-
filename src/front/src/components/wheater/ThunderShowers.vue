@@ -4,23 +4,23 @@
             <path id="lightning" fill="#FF9B00" d="M34.9,39.2l-5.1,6.7L29.4,45h4.1h1.2L34,45.9l-4.7,5.8c-0.1,0.1-0.3,0.1-0.4,0
                 s-0.1-0.3-0.1-0.4l4.2-6.2l0.5,0.9h-4.1h-1.2l0.7-0.9l5.1-6.7c0.2-0.3,0.6-0.3,0.8-0.1C35,38.6,35.1,39,34.9,39.2z" data-svg-origin="31.60450839996338 38.16061019897461" transform="matrix(1,0,0,1,0,0)"></path>
             <g id="rain" style="opacity: 1;">
-                <path fill="#00A2CF" d="M37.5,39.3c-0.3,0.6-1,0.9-1.4,0.7s-0.4-0.9-0.1-1.5c0.4-0.6,2-1.8,2-1.8S37.9,38.7,37.5,39.3z" data-svg-origin="35.78615188598633 36.70000076293945" style="opacity: 0.566;" transform="matrix(1,0,0,1,-1.7359999999998763,6.509999999999536)"></path>
-                <path fill="#00A2CF" d="M27.3,39.5c-0.3,0.5-0.7,0.7-1,0.5s-0.3-0.7-0.1-1.2c0.3-0.5,1.6-1.4,1.6-1.4S27.6,39,27.3,39.5z" data-svg-origin="26.060611724853516 37.39999771118164" style="opacity: 0;" transform="matrix(1,0,0,1,-4,15)"></path>
-                <path fill="#00A2CF" d="M16.9,34.2c-0.3,0.6-0.9,0.9-1.3,0.7c-0.4-0.2-0.4-0.9-0.1-1.5c0.3-0.6,1.9-1.8,1.9-1.8
+                <path class="drop1" fill="#00A2CF" d="M37.5,39.3c-0.3,0.6-1,0.9-1.4,0.7s-0.4-0.9-0.1-1.5c0.4-0.6,2-1.8,2-1.8S37.9,38.7,37.5,39.3z" data-svg-origin="35.78615188598633 36.70000076293945" style="opacity: 0.566;" transform="matrix(1,0,0,1,-1.7359999999998763,6.509999999999536)"></path>
+                <path class="drop2" fill="#00A2CF" d="M27.3,39.5c-0.3,0.5-0.7,0.7-1,0.5s-0.3-0.7-0.1-1.2c0.3-0.5,1.6-1.4,1.6-1.4S27.6,39,27.3,39.5z" data-svg-origin="26.060611724853516 37.39999771118164" style="opacity: 0;" transform="matrix(1,0,0,1,-4,15)"></path>
+                <path class="drop3" fill="#00A2CF" d="M16.9,34.2c-0.3,0.6-0.9,0.9-1.3,0.7c-0.4-0.2-0.4-0.9-0.1-1.5c0.3-0.6,1.9-1.8,1.9-1.8
                     S17.3,33.6,16.9,34.2z" data-svg-origin="15.286155700683594 31.60000228881836" style="opacity: 0.805;" transform="matrix(1,0,0,1,-0.7800000000001244,2.9250000000004666)"></path>
-                <path fill="#00A2CF" d="M21.3,39.2c-0.3,0.5-0.8,0.7-1.1,0.5c-0.3-0.2-0.3-0.7-0.1-1.2c0.3-0.5,1.6-1.4,1.6-1.4
+                <path class="drop4" fill="#00A2CF" d="M21.3,39.2c-0.3,0.5-0.8,0.7-1.1,0.5c-0.3-0.2-0.3-0.7-0.1-1.2c0.3-0.5,1.6-1.4,1.6-1.4
                     S21.6,38.7,21.3,39.2z" data-svg-origin="19.96061134338379 37.099998474121094" style="opacity: 0.435385;" transform="matrix(1,0,0,1,-2.258461538461303,8.469230769229886)"></path>
-                <path fill="#00A2CF" d="M24.8,39.3c-0.3,0.6-1,0.9-1.4,0.7s-0.4-0.9-0.1-1.5c0.4-0.6,2-1.8,2-1.8S25.1,38.7,24.8,39.3z" data-svg-origin="23.086156845092773 36.70000076293945" style="opacity: 0.118571;" transform="matrix(1,0,0,1,-3.5257142857143924,13.221428571428971)"></path>
-                <path fill="#00A2CF" d="M28.7,39.6c-0.2,0.4-0.6,0.6-0.9,0.4c-0.3-0.1-0.3-0.6-0.1-1c0.2-0.4,1.3-1.2,1.3-1.2S28.9,39.2,28.7,39.6z
+                <path class="drop5" fill="#00A2CF" d="M24.8,39.3c-0.3,0.6-1,0.9-1.4,0.7s-0.4-0.9-0.1-1.5c0.4-0.6,2-1.8,2-1.8S25.1,38.7,24.8,39.3z" data-svg-origin="23.086156845092773 36.70000076293945" style="opacity: 0.118571;" transform="matrix(1,0,0,1,-3.5257142857143924,13.221428571428971)"></path>
+                <path class="drop6" fill="#00A2CF" d="M28.7,39.6c-0.2,0.4-0.6,0.6-0.9,0.4c-0.3-0.1-0.3-0.6-0.1-1c0.2-0.4,1.3-1.2,1.3-1.2S28.9,39.2,28.7,39.6z
                     " data-svg-origin="27.56061363220215 37.79999923706055" style="opacity: 0.844;" transform="matrix(1,0,0,1,-0.6240000000000995,2.340000000000373)"></path>
-                <path fill="#00A2CF" d="M42.7,39.6c-0.2,0.4-0.6,0.6-0.9,0.4c-0.3-0.1-0.3-0.6-0.1-1s1.3-1.2,1.3-1.2S42.9,39.2,42.7,39.6z" data-svg-origin="41.560611724853516 37.79999923706055" style="opacity: 0;" transform="matrix(1,0,0,1,-4,15)"></path>
-                <path fill="#00A2CF" d="M37,39.6c-0.2,0.4-0.6,0.6-0.9,0.4c-0.3-0.1-0.3-0.6-0.1-1s1.3-1.2,1.3-1.2S37.2,39.2,37,39.6z" data-svg-origin="35.86061096191406 37.79999923706055" style="opacity: 0.391765;" transform="matrix(1,0,0,1,-2.432941176470569,9.123529411764633)"></path>
-                <path fill="#00A2CF" d="M53.7,33.3c-0.2,0.3-0.5,0.5-0.7,0.4s-0.2-0.5,0-0.8s1.1-1,1.1-1S53.9,33,53.7,33.3z" data-svg-origin="52.849998474121094 31.900001525878906" style="opacity: 0.314444;" transform="matrix(1,0,0,1,-2.7422222222220523,10.283333333332696)"></path>
-                <path fill="#00A2CF" d="M50.3,37.5c-0.3,0.5-0.8,0.7-1.1,0.6c-0.3-0.2-0.4-0.7-0.1-1.2c0.3-0.5,1.7-1.5,1.7-1.5S50.6,37,50.3,37.5z
+                <path class="drop7" fill="#00A2CF" d="M42.7,39.6c-0.2,0.4-0.6,0.6-0.9,0.4c-0.3-0.1-0.3-0.6-0.1-1s1.3-1.2,1.3-1.2S42.9,39.2,42.7,39.6z" data-svg-origin="41.560611724853516 37.79999923706055" style="opacity: 0;" transform="matrix(1,0,0,1,-4,15)"></path>
+                <path class="drop8" fill="#00A2CF" d="M37,39.6c-0.2,0.4-0.6,0.6-0.9,0.4c-0.3-0.1-0.3-0.6-0.1-1s1.3-1.2,1.3-1.2S37.2,39.2,37,39.6z" data-svg-origin="35.86061096191406 37.79999923706055" style="opacity: 0.391765;" transform="matrix(1,0,0,1,-2.432941176470569,9.123529411764633)"></path>
+                <path class="drop9" fill="#00A2CF" d="M53.7,33.3c-0.2,0.3-0.5,0.5-0.7,0.4s-0.2-0.5,0-0.8s1.1-1,1.1-1S53.9,33,53.7,33.3z" data-svg-origin="52.849998474121094 31.900001525878906" style="opacity: 0.314444;" transform="matrix(1,0,0,1,-2.7422222222220523,10.283333333332696)"></path>
+                <path class="drop10" fill="#00A2CF" d="M50.3,37.5c-0.3,0.5-0.8,0.7-1.1,0.6c-0.3-0.2-0.4-0.7-0.1-1.2c0.3-0.5,1.7-1.5,1.7-1.5S50.6,37,50.3,37.5z
                     " data-svg-origin="48.918861389160156 35.39999771118164" style="opacity: 0.14;" transform="matrix(1,0,0,1,-3.4399999999997917,12.899999999999219)"></path>
-                <path fill="#00A2CF" d="M55.8,33.3c-0.2,0.4-0.6,0.6-0.8,0.4c-0.2-0.1-0.3-0.6-0.1-0.9c0.2-0.4,1.3-1.1,1.3-1.1S56,32.9,55.8,33.3z
+                <path class="drop11" fill="#00A2CF" d="M55.8,33.3c-0.2,0.4-0.6,0.6-0.8,0.4c-0.2-0.1-0.3-0.6-0.1-0.9c0.2-0.4,1.3-1.1,1.3-1.1S56,32.9,55.8,33.3z
                     " data-svg-origin="54.790985107421875 31.69999885559082" style="opacity: 0.183;" transform="matrix(1,0,0,1,-3.2679999999998017,12.254999999999256)"></path>
-                <path fill="#00A2CF" d="M16.8,34.5c-0.2,0.4-0.6,0.6-0.8,0.4c-0.2-0.1-0.3-0.6-0.1-0.9c0.2-0.4,1.3-1.1,1.3-1.1S17,34.1,16.8,34.5z
+                <path class="drop12" fill="#00A2CF" d="M16.8,34.5c-0.2,0.4-0.6,0.6-0.8,0.4c-0.2-0.1-0.3-0.6-0.1-0.9c0.2-0.4,1.3-1.1,1.3-1.1S17,34.1,16.8,34.5z
                     " data-svg-origin="15.790982246398926 32.900001525878906" style="opacity: 0.698095;" transform="matrix(1,0,0,1,-1.2076190476188586,4.52857142857072)"></path>
             </g>
             <g id="cloud2" style="opacity: 1;">
@@ -88,5 +88,151 @@ export default {
 </script>
 
 <style scoped>
+@keyframes light {
+    from {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+    30%, 35% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+    35.01% {
+        opacity: 1;
+        transform: translate(5px, 0);
+    }
+    50% {
+        opacity: 0;
+        transform: translate(5px, 0);
+    }
+    50.01%{
+        opacity: 1;
+        transform: translate(3px, 0);
+    }
+    to {
+        opacity: 0;
+        transform: translate(3px, 0);
+    }
+}
+
+@keyframes dropFall1 {
+    from {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+    to {
+        opacity: 0.2;
+        transform: translate(-3px, 20px);
+    }
+}
+
+@keyframes dropFall2 {
+    from {
+        opacity: 0.75;
+        transform: translate(3px, -10x);
+    }
+    to {
+        opacity: 0;
+        transform: translate(-2px, 5px);
+    }
+}
+
+@keyframes dropFall3 {
+    from {
+        opacity: 0.9;
+        transform: translate(1px, -1x);
+    }
+    to {
+        opacity: 0.5;
+        transform: translate(-1px, 7px);
+    }
+}
+
+#lightning {
+    animation: light 3s infinite;
+}
+
+.drop1 {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: dropFall1;
+    transform-origin: center center;
+}
+
+.drop2 {
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: dropFall2;
+    transform-origin: center center;
+}
+
+.drop3 {
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: dropFall2;
+    transform-origin: center center;
+}
+
+.drop4 {
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: dropFall1;
+    transform-origin: center center;
+}
+
+.drop5 {
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: dropFall1;
+    transform-origin: center center;
+}
+
+.drop6 {
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: dropFall2;
+    transform-origin: center center;
+}
+
+.drop7 {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: dropFall2;
+    transform-origin: center center;
+}
+.drop8 {
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: dropFall1;
+    transform-origin: center center;
+}
+
+.drop9 {
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: dropFall1;
+    transform-origin: center center;
+}
+
+.drop10 {
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: dropFall2;
+    transform-origin: center center;
+}
+
+.drop11 {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: dropFall2;
+    transform-origin: center center;
+}
+
+.drop12 {
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: dropFall1;
+    transform-origin: center center;
+}
 
 </style>

@@ -1,6 +1,6 @@
 <template>
-    <div style="width: 200px; height: 200px">
-        <svg version="1.1" id="thermometerHotIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="70px" height="70px" viewBox="0 0 70 70" enable-background="new 0 0 70 70" xml:space="preserve">
+    <div>
+        <svg style="width: 100%;" version="1.1" id="thermometerHotIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="70px" height="70px" viewBox="0 0 70 70" enable-background="new 0 0 70 70" xml:space="preserve">
             <g id="sun_2_">
                 <g id="outerRepeat" data-svg-origin="44.00000190734863 20.799999237060547" transform="matrix(0.80235,0,0,0.80235,8.69619135296972,4.110926492412105)">
                     <circle id="outer" fill="#FFE499" cx="44" cy="20.8" r="9.6" data-svg-origin="44.00000190734863 20.799999237060547" transform="matrix(1,0,0,1,0,0)"></circle>

@@ -47,57 +47,57 @@ export default {
 .stroke2 {
   stroke-dasharray: 100%;
   stroke-dashoffset: 100%;
-  animation-delay: 0.1s;
   animation: dash 2s linear infinite;
+  animation-delay: 0.1s;
 }
 
 .stroke3 {
   stroke-dasharray: 100%;
   stroke-dashoffset: 100%;
-  animation-delay: 0.2s;
   animation: dash 2s linear infinite;
+  animation-delay: 0.2s;
 }
 
 .stroke4 {
   stroke-dasharray: 100%;
   stroke-dashoffset: 100%;
-  animation-delay: 0.3s;
   animation: dash 2s linear infinite;
+  animation-delay: 0.3s;
 }
 
 .stroke5 {
   stroke-dasharray: 100%;
   stroke-dashoffset: 100%;
-  animation-delay: 0.4s;
   animation: dash 2s linear infinite;
+  animation-delay: 0.4s;
 }
 
 .stroke6 {
   stroke-dasharray: 100%;
   stroke-dashoffset: 100%;
-  animation-delay: 0.4s;
   animation: dash 2s linear infinite;
+  animation-delay: 0.4s;
 }
 
 .stroke7 {
   stroke-dasharray: 100%;
   stroke-dashoffset: 100%;
-  animation-delay: 0.5s;
   animation: dash 2s linear infinite;
+  animation-delay: 0.5s;
 }
 
 .stroke8 {
   stroke-dasharray: 100%;
   stroke-dashoffset: 100%;
-  animation-delay: 0.6s;
   animation: dash 2s linear infinite;
+  animation-delay: 0.6s;
 }
 
 .stroke9 {
   stroke-dasharray: 100%;
   stroke-dashoffset: 100%;
-  animation-delay: 0.7s;
   animation: dash 2s linear infinite;
+  animation-delay: 0.7s;
 }
 
 

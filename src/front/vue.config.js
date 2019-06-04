@@ -1,6 +1,6 @@
-module.exports = {
-    publicPath: process.env.NODE_ENV === 'production'
-      ? '/front/dist/'
-      : '/front/dist/'
-  }
-  
+
+// module.exports = {
+//   publicPath: process.env.NODE_ENV === 'production'
+//       ? '/front/dist'
+//       : 'front/dist'
+// }

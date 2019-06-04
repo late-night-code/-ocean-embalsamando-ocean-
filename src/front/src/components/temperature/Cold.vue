@@ -1,8 +1,7 @@
 <template>
-    <div style="width: 200px; height: 200px">
-        <svg version="1.1" id="thermometerColdIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="70px" height="70px" viewBox="0 0 70 70" enable-background="new 0 0 70 70" xml:space="preserve">
+    <div>
+        <svg style="width: 100%;" version="1.1" id="thermometerColdIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="70px" height="70px" viewBox="0 0 70 70" enable-background="new 0 0 70 70" xml:space="preserve">
             <g id="thermometer" style="opacity: 1;">
-            
                 <g id="snowflake" data-svg-origin="43.29999923706055 21.75" transform="matrix(0.97625,-0.21661,0.21661,0.97625,-3.683248428765417,9.895596906587704)">
                     <path fill="#D1D3D4" d="M44.9,24.2l-0.6-1.1l-3.1-3.2l-0.3-0.2l0,0l-0.7-0.6v0.1L38.5,18l0.1-1.8L38,16l-0.1,1.5l-0.5-0.3l0.1-1.3
                         l-0.7-0.2l-0.1,1.1l-1-0.6l-0.4,0.6l0.9,0.6l-1,0.5l0.4,0.6l1.2-0.6l0.5,0.3l-1.4,0.7l0.4,0.5l1.6-0.8l1.8,1.2l-1.1,0.3l0.7,1

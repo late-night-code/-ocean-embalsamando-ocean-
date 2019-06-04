@@ -1,29 +1,24 @@
 <template>
   <div id="app">
-    <WindySunny/>
     <Geolocation/>
-    <Reservoir :data="[200, 700, 300]"/>
   </div>
 </template>
 
 <script>
-import Reservoir from './components/Reservoir.vue'
 import Geolocation from './components/Geolocation.vue'
-import WindySunny from './components/wheater/WindySunny.vue'
 
 export default {
   name: 'app',
   components: {
-    WindySunny,
-    Reservoir,
     Geolocation
   }
 }
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Sarabun:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Sarabun', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
